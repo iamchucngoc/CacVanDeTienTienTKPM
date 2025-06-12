@@ -2,6 +2,5 @@
 package task.pkg9;
 
 public interface PaymentStrategy {
-    void processPayment(double amount);
+    boolean pay(float amount);
 }
-
